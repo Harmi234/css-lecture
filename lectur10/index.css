@@ -1,0 +1,49 @@
+.box{
+   height: 100px;
+   width: 400px;
+   border-style: ridge;
+   background-color: pink;
+   color: black;
+   border-radius: 2px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   grid-template-columns:auto;
+ }
+ .box2{
+   height: 400px;
+   width: 200px;
+   border-style: ridge;
+   background-color: pink;
+   color: black;
+   border-radius: 2px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* grid-template-columns:auto; */
+ }
+ .box3{
+   height: 100px;
+   width:  600px;
+   border-style: ridge;
+   background-color: pink;
+   color: black;
+   border-radius: 2px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* grid-template-columns:300px; */
+ }
+ #parent-box{
+    display: grid;
+    text-align: center;
+    gap: 5px;  
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 4fr;
+ }
+ #box-1{
+   display:grid;
+   grid-template-columns: 400px;
+   grid-template-rows:200px;
+ }
+ 
