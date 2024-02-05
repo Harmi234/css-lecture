@@ -89,15 +89,15 @@
 #lengvaj{
     display: flex;
     justify-content: space-between;
-    /* height: 400px; */
-    width: 2000px;
-    border: 1px solid black;
+    height: 400px;
+    width: 1650px;
+    /* border: 1px solid black; */
     margin: 80px;
     
 } 
 #perent-box{
     margin: 10px;
- position: relative;
+ /* position: relative; */
  /* left: -59.6px;
  box-sizing: border-box;
  width: 1519px;
@@ -151,7 +151,7 @@ font-size: 50px;
    justify-content: center;
 }
 #chekub:hover{
- text-transform: none;
+ /* text-transform: lowercase; */
  transition: all .6s;
 }
 #chekub{
@@ -328,9 +328,9 @@ align-items: center;
     max-width:var(max-width) ;
     margin: 0px;
     font-weight:700!important;
-    text-transform: var(--wd-title-transform);
-    font-style: var(--wd-title-font-style);
-    font-family:var(--wd-title-font) ;
+    /* text-transform: var(--wd-title-transform); */
+    /* font-style: var(--wd-title-font-style); */
+    /* font-family:var(--wd-title-font) ; */
  }
 /* #spoon{
     font-size: 30px;
@@ -451,7 +451,7 @@ align-items: center;
     display: flex;
 }
 #solushen-box{
-position: relative;
+/* position: relative; */
 
 
 }
