@@ -13,6 +13,9 @@
     border-radius: 10px;
 
 }
+#div1:hover{
+    transform: translate(0px,-8px);
+}
 #div2{
     height:300px;
     width: 290px;
@@ -25,6 +28,9 @@
     align-items: center;
     padding: 20px;
     border-radius: 10px;
+}
+#div2:hover{
+    transform: translate(0px,-8px);
 }
 #div3{
     height:300px;
@@ -39,6 +45,9 @@
     padding: 20px;
     border-radius: 10px;
 }
+#div3:hover{
+    transform: translate(0px,-8px);
+}
 #div4{
     height:300px;
     width: 290px;
@@ -51,6 +60,9 @@
     align-items: center;
     padding: 20px;
     border-radius: 10px;
+}
+#div4:hover{
+    transform: translate(0px,-8px);
 }
 #main{
     display: flex;
@@ -76,8 +88,17 @@
 }
 #a{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
   padding-left:0 ;
     margin-left:20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#colem{
+    align-items: center;
 }
